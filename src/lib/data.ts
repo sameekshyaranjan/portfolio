@@ -1,7 +1,7 @@
 export const personal = {
   name: "Sameekshya Ranjan Sahu",
   firstName: "Sameekshya",
-  role: "Full Stack Developer & AI Engineer",
+  role: "Full stack developer",
   location: "Bengaluru, India",
   email: "sameekshyaranjan.official@gmail.com",
   github: "https://github.com/sameekshyaranjan",

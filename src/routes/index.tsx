@@ -19,13 +19,13 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Portfolio of Sameekshya Ranjan Sahu — Full Stack Developer & AI Engineer based in Bengaluru. Building civic, agricultural, and AI-integrated products.",
+          "Portfolio of Sameekshya Ranjan Sahu — Full stack developer based in Bengaluru. Building civic, agricultural, and AI-integrated products.",
       },
-      { property: "og:title", content: "Sameekshya Ranjan Sahu — Full Stack & AI Engineer" },
+      { property: "og:title", content: "Sameekshya Ranjan Sahu — Full stack developer" },
       {
         property: "og:description",
         content:
-          "Full Stack Developer & AI Engineer. Available for Summer / Fall 2026 internships.",
+          "Full stack developer. Available for Summer / Fall 2026 internships.",
       },
     ],
   }),

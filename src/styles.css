@@ -1,0 +1,55 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@theme inline {
+  --color-bg: #0A0A0B;
+  --color-surface: #111113;
+  --color-surface-2: #0D0D10;
+  --color-border: #1E1E22;
+  --color-border-hover: #2E2E36;
+  --color-text-primary: #F1F1F3;
+  --color-text-secondary: #8A8A9A;
+  --color-text-muted: #4A4A5A;
+  --color-accent: #6E56CF;
+  --color-green: #3DD68C;
+  --color-amber: #F5A623;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --font-display: "Geist", "Inter", ui-sans-serif, sans-serif;
+}
+
+html, body {
+  background-color: #0A0A0B;
+  color: #F1F1F3;
+  font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: rgba(110, 86, 207, 0.35);
+  color: #F1F1F3;
+}
+
+/* Subtle dot grid for hero */
+.dot-grid {
+  background-image: radial-gradient(rgba(255,255,255,0.08) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.beacon {
+  background: radial-gradient(ellipse 60% 50% at 50% 30%, rgba(110, 86, 207, 0.22) 0%, rgba(110, 86, 207, 0.05) 40%, transparent 70%);
+}
+
+.tight {
+  letter-spacing: -0.02em;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}

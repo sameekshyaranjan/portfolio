@@ -218,7 +218,7 @@ export function Contact() {
         </motion.h2>
         <motion.p {...reveal} className="mt-4 text-[#8A8A9A] max-w-xl">
           Open to internship opportunities — full-stack, AI engineering, or product-focused
-          engineering roles. Available Summer / Fall 2026.
+          engineering roles. Available for internships and full time opportunities.
         </motion.p>
 
         <motion.div {...reveal} className="mt-14 flex flex-wrap gap-6">

@@ -25,7 +25,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Full stack developer. Available for Summer / Fall 2026 internships.",
+          "Full stack developer. Available for internships and full time opportunities.",
       },
     ],
   }),

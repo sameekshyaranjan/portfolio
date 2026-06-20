@@ -6,6 +6,7 @@ export const personal = {
   email: "sameekshyaranjan.official@gmail.com",
   github: "https://github.com/sameekshyaranjan",
   linkedin: "https://linkedin.com/in/sameekshyaranjan",
+  resume: "https://drive.google.com/file/d/1lYxfwMEFE-Ins1llDyHxoG7DSyQE_zp8/view?usp=drive_link",
   status: "Available for internships — Summer / Fall 2026",
 };
 

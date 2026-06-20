@@ -52,7 +52,9 @@ export function Hero() {
                 View Work <span aria-hidden>↓</span>
               </a>
               <a
-                href="#contact"
+                href={personal.resume}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-4 py-2.5 rounded-md border border-[#2A2A32] hover:border-[#6E56CF] text-[#F1F1F3] text-sm font-medium transition"
               >
                 Resume <span aria-hidden>↗</span>
